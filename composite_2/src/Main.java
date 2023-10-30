@@ -1,3 +1,7 @@
+/*
+Devoir réalisé par CHEDJOUN KENGUEP Dave 20U2757 Master 1 Spécialité SIGL
+Classe cliente utilisant
+ */
 public class Main {
     public static void main(String[] args) {
         Section section = new Section();
