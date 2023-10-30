@@ -4,22 +4,19 @@ Classe cliente utilisant
  */
 public class Main {
     public static void main(String[] args) {
-        Section section = new Section();
-        final int[] i = {1}; // tableau pour attribuer des valeurs aux exécutions
-
+        Section section = new Section("Section principale", "This is the principal section");
         Texte sousSection1 = new Section("section1", "This is section1");
-        Texte sousSection2 = new Section("section1", "This is section2");;
-        Texte paragraph = new Paragraphe("Paragraphe1", "This is paragraph1");
-
+        Texte sousSection2 = new Section("section2", "This is section2");
+        Texte sousSection21 = new Section("section2.1", "This is section2.1");
+        Texte paragraph = new Paragraphe("Paragraphe", "This is paragraph");
         section.ajout(sousSection1);
-        section.ajout(paragraph);
         section.ajout(sousSection2);
+        section.ajout(paragraph);
+        sousSection1.ajout(paragraph);
+        sousSection2.ajout(paragraph);
+        sousSection2.ajout(sousSection21);
+        sousSection21.ajout(paragraph);
+        section.get();
 
-        section.sousSection.forEach((sec) ->{
-            System.out.println("===== " + i[0] + ". =====");
-            sec.get();
-            System.out.println("Size "+ sec.longueur());
-            i[0]++;
-        });
     }
 }

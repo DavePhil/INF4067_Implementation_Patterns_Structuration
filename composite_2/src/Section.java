@@ -14,7 +14,11 @@ public  class Section extends Texte{
         sousSection.add(texte);
     }
 
-
-
-
+    @Override
+    public void get() {
+        super.get();
+        for (Texte sousSection : sousSection){
+            sousSection.get();
+        }
+    }
 }
