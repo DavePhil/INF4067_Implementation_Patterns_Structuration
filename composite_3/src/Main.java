@@ -20,7 +20,6 @@ public class Main {
         System.out.println("*** 3 sous dossier avec chacun un fichier ***");
         System.out.println("=============================================");
         repertoire.decrire();
-        repertoire.toString();
         sousRepertoire.remove(sousSousRepertoire);
         System.out.println("================================");
         System.out.println("*** Suppression d'un dossier ***");
