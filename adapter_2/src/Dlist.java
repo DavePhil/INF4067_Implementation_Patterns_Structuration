@@ -6,13 +6,13 @@ public class Dlist<DNode> {
         System.out.println("Insertion dans une liste chainée");
     }
     public void remove(DNode pos){
-        System.out.println("Retirer l'element : "+ pos + "dans la liste chainée");
+        System.out.println("Retirer l'element : "+ pos + " dans la liste chainée");
     }
     public void insertHead(Object object){
-        System.out.println("Insere l'objet" + object + "en tête de liste");
+        System.out.println("Insere l'objet" + object + " en tête de liste");
     }
     public void insertTail(Object object){
-        System.out.println("Insere l'objet " + object + "en top de liste");
+        System.out.println("Insere l'objet " + object + " en top de liste");
     }
     public Object removeHead(){
         System.out.println("Retire l'objet en tête de liste");
