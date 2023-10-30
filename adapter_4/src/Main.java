@@ -7,7 +7,6 @@ public class Main {
         System.out.println("*************** Debut ***************");
         Stack stack = new DListImplementStack();
         Object object = new Object();
-
         stack.push(object);
         stack.top();
         stack.pop();
