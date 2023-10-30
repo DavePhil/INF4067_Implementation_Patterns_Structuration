@@ -6,7 +6,7 @@ public class Component {
 
     }
     public void operation1(){
-        System.out.println("Première Operation");
+        System.out.println("Premiere Operation");
     }
     public void operation2(){
         System.out.println("Deuxieme Operation");
