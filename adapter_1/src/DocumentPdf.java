@@ -2,8 +2,11 @@
 Classe représentant l'adapter pour les documents de types pdf
  */
 public class DocumentPdf implements Document{
+
+    private ComposantPdf composantPdf = new ComposantPdf();
     @Override
-    public int setContenu() {
+    public int setContenu(String contenu) {
+        composantPdf.pdfFixeContenu(contenu);
         return 0;
     }
 
@@ -14,6 +17,6 @@ public class DocumentPdf implements Document{
 
     @Override
     public void imprime() {
-
+        composantPdf.EnvoieImprimante();
     }
 }
