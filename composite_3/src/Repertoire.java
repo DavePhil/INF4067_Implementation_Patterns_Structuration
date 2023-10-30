@@ -22,9 +22,11 @@ public class Repertoire extends Element {
     }
     public void ajouter(Element element){
         sousRepertoire.add(element);
+//        System.out.println(element.getName() + "a ete ajoute");
     }
     public void remove (Element element){
         sousRepertoire.remove(element);
+//        System.out.println(element.getName() + "a ete retire");
     }
     public Element get(int index){
         return  sousRepertoire.get(index);

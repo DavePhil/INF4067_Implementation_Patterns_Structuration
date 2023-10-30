@@ -6,6 +6,14 @@ public class Element {
     private String name;
     private Type type;
 
+    public String getName() {
+        return name;
+    }
+
+    public Type getType() {
+        return type;
+    }
+
     public Element(String name, Type type){
         this.name = name;
         this.type = type;
@@ -14,7 +22,7 @@ public class Element {
 
     }
     public void decrire(){
-        System.out.println("Nom : "+ name + "type : "+ type);
+        System.out.println("Nom : "+ name + " type : "+ type);
     }
-    
+
 }
