@@ -1,5 +1,5 @@
 /*
 Implémente le comportement élémentaire
  */
-public class Leaf {
+public class Leaf extends Component {
 }
