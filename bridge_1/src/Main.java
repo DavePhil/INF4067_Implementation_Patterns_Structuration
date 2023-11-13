@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Shape rectangle = new Rectangle(new RedColor());
+        Shape circle = new Circle(new BlueColor());
+        System.out.println("*************** Debut ***************");
+        rectangle.colorIt();
+        circle.colorIt();
+        System.out.println("**************** Fin ****************");
     }
 }
