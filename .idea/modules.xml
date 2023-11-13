@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/INF4067_Implementation_Patterns_Structuration.iml" filepath="$PROJECT_DIR$/.idea/INF4067_Implementation_Patterns_Structuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator_1/decorator_1.iml" filepath="$PROJECT_DIR$/decorator_1/decorator_1.iml" />
     </modules>
   </component>
 </project>
