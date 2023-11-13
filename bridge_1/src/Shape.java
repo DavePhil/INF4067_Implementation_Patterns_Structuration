@@ -1,7 +1,3 @@
-package Shape;
-
-import color.Color;
-
 public abstract class Shape {
      Color color;
 

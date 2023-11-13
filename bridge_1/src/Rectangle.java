@@ -1,10 +1,6 @@
-package Shape;
+public class Rectangle extends Shape{
 
-import color.Color;
-
-public class Circle extends Shape{
-
-    public Circle(Color color) {
+    public Rectangle(Color color) {
         super(color);
     }
 
