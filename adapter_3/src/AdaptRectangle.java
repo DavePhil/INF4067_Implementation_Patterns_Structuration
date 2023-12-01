@@ -6,6 +6,7 @@ public class AdaptRectangle implements ICarre{
         this.cote = cote;
     }
 
+    // Methode pour attribuer les valeurs à la longueur et à la largeur du rectangle
     public void setRectangle(){
         rectangle.setLongueur(cote);
         rectangle.setLargeur(cote);
