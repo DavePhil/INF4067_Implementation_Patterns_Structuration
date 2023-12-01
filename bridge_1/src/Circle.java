@@ -1,3 +1,7 @@
+/*
+Classe concrète représentant RefineAbstraction dans le modèle générique.
+Il enrichit l'interface pour en faire une classe concrète
+ */
 public class Circle extends Shape{
 
     public Circle(Color color) {
