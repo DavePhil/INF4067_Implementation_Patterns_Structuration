@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Classe composite qui définit le comportement des composants
+ */
 public  class Section extends Texte{
     protected List<Texte> sousSection = new ArrayList<>();
 
