@@ -5,12 +5,15 @@ import java.util.List;
 définit le comportement des composants ayants des fils et implémente les opérations nécessaires leur gestion.
  */
 public class Composite extends Component {
-
+    // Liste des children
     private List<Component> children = new ArrayList<>();
 
+    // Ajouter un composant en tant qu'enfant
     public void addComponent(Component component){
         children.add(component);
     }
+
+    // Retirer en tant qu'enfant
     public void removeComponent(Component component){
         children.remove(component);
     }
