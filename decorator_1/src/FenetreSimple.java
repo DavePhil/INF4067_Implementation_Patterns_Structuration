@@ -1,3 +1,6 @@
+/*
+la classe qui définit les objets initiaux auxquels de nouvelles fonctionnalités seront ajoutées
+ */
 public class FenetreSimple implements Fenetre{
     @Override
     public void dessiner() {

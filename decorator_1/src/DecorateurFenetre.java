@@ -1,6 +1,9 @@
+/*
+Classe abstraite ayant une reference vers un composant.
+ */
 public abstract class DecorateurFenetre implements Fenetre{
 
-    private Fenetre fenetreDecoree;
+    protected Fenetre fenetreDecoree;
 
     public DecorateurFenetre(Fenetre fenetre){
         this.fenetreDecoree = fenetre;

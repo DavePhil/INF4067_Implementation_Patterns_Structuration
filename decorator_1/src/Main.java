@@ -1,3 +1,7 @@
+/*
+Devoir réalisé par CHEDJOUN KENGUEP Dave Matricule 20U2757 Master1 SIGL
+Classe cliente qui utilise le decorateur pour décorer les objets
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("*************** Debut ***************");
